@@ -1,0 +1,80 @@
+
+.mon-header {
+  display: flex;            /* Utilisation de Flexbox */
+  justify-content: space-between;  /* Centrer horizontalement */
+  background-color: #d3d1d0; /* Couleur de fond du header */
+  align-items: center; 
+  padding: 1rem 2rem;             /* Espacement interne */
+}
+
+.liens-nav {
+  list-style-type: none;         /* Supprime les puces de la liste */
+  display: flex;            /* Utilisation de Flexbox pour les éléments de la liste */
+  gap: 20px;    
+  margin: 0;    
+  padding: 0;             /* Espacement entre les éléments de la liste */
+}
+
+.liens-nav a {
+  text-decoration: none;         /* Supprime le soulignement des liens */        /* Met le texte en gras */
+}
+
+h1 {
+  text-align: center;  
+  font-size: 3rem;  
+  margin-top: 20px;  
+  color: #2c3e50;  
+}
+
+h2 {
+  text-align: center;  
+  font-size: 2rem;  
+  margin-top: 10px;  
+  color: #070707;  
+}
+
+
+#entrees, #plats, #desserts {
+  padding: 50px 20px;
+  background-color: #efb383; 
+  font-family: Arial, sans-serif;  /* Famille de polices pour les sections */
+}
+
+#entrees h2, #plats h2, #desserts h2 {
+  text-align: center;  
+  font-size: 2.5rem;  
+  margin-bottom: 40px; 
+  color: #2c3e50;
+}
+
+#entrees ul, #plats ul, #desserts ul {  
+  display: flex;  
+  flex-wrap: wrap;  
+  justify-content: center;  
+  gap: 20px; 
+  list-style-type: none;  
+  padding: 0;
+  margin: 0;
+}
+
+#entrees li, #plats li, #desserts li {
+  background-color: #ffffff;  
+  border: 1px solid #ddd;  
+  border-radius: 8px;  
+  padding: 20px;  
+  width: 320px;  
+  text-align: center;  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);  
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+
+
+
+
+
+
